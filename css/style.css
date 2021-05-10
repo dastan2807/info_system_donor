@@ -1,0 +1,191 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+.header {
+    overflow: hidden;
+}
+.left_blog {
+    width: 48%;
+    float: left;
+}
+.left_blog h3 {
+    font-family: Arial;
+    padding: 0 0 0 20px;
+}
+.left_blog .blog_in {
+    display: flex;
+    align-items: center;
+    margin: 30px 0 0 25px;
+}
+.left_blog .blog_in .usd {
+    border: 3px solid black;
+    display: inline-block;
+    padding: 3px 25px;
+    border-radius: 8px;
+    font-weight: 700;
+    
+}
+.left_blog .blog_in ul {
+    list-style: none;
+    display: inline-block;
+    text-align: right;
+}
+.left_blog .blog_in ul li {
+    margin: 8px 0;
+}
+.right_form {
+    width: 48%;
+    float: right;
+}
+.right_form h4 {
+    width: 100%;
+    padding: 0px 0 0 30%;
+}
+.right_form ul {
+    list-style: none;
+    margin: 0 0 0 20%;
+}
+.right_form ul li {
+    margin: 1px 0;
+}
+.logo_table {
+    text-align: center;
+    color: #0000FF;
+    font-size: 1em;
+    font-style: italic;
+    font-weight: 400;
+    margin: 5px;
+}
+.table_blog {
+    width: 99%;
+    margin-left: 0.5%;
+    overflow-y: auto;
+    height: 500px;
+}
+.quarter_table_blog {
+    height: 590px;
+}
+.table_blog::-webkit-scrollbar {
+    width: 0px;
+}
+.table_blog::-webkit-scrollbar-thumb {
+    background: #A8A8A8; 
+    border-radius: 0px;
+}
+.table_blog table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95em;
+    margin-bottom: 40px;
+}
+.table_blog table thead {
+    background-color: #969696;
+    color: white;
+}
+.table_blog table thead .color_yellow {
+    color: #FFFF00;
+}
+.table_blog table thead th {
+    font-weight: 500;
+    padding: 5px;
+    border: 1px solid black;
+}
+.table_blog table thead tr .thead_fixed {
+    position: sticky;
+    top: -1px;
+    background-color: #969696;
+    box-shadow: inset 0 1px 0 black, inset 0 -1px 0 black;
+    padding: 7px 0;
+}
+.table_blog table tbody .tr_blue {
+    background-color: #99CCFF;
+    font-weight: 500;
+}
+.table_blog table tr td {
+    border: 1px solid black;
+    padding: 3px;
+}
+
+
+/* ------------------------------ quarter --------------------------------- */
+
+.header h3 {
+    padding: 0 0 0 20px;
+}
+.header .quarter_left {
+    list-style: none;
+    margin-left: 150px;
+    float: left;
+    text-align: end;
+}
+
+.header .quarter_usd {
+    float: right;
+    border: 3px solid black;
+    padding: 3px 25px;
+    border-radius: 8px;
+    font-weight: 700;
+    margin-right: 80px;
+}
+
+/* ------------------------------ treasury_style ------------------------------- */
+
+.main_blog h4{
+    text-align: center;
+    margin: 30px 0 7px 0;
+}
+.main_blog .treasury_head_table {
+    width: 60%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+.main_blog .treasury_head_table tr th,
+.main_blog .treasury_head_table tr td
+{
+    border: 1px solid black;
+    text-align: center;
+    padding: 3px;
+}
+
+.main_blog .treasury_body_table {
+    width: 98%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+.main_blog .treasury_body_table tr th,
+.main_blog .treasury_body_table tr td {
+    border: 1px solid black;
+}
+
+
+/* -------------------------------  project_all  -------------------------------- */
+
+.container {
+    margin: 50px 40px 0px 40px;
+}
+.logo_project {
+    margin: 0px 0 0 0px;
+    color: rgb(56, 56, 56);
+}
+.container table {
+    border-collapse: collapse;
+    margin-top: 40px;
+}
+.container table tr th, .container table tr td {
+    border: 1px solid rgb(156, 156, 156);
+}
+#id_all {
+    text-align: center;
+}
+.container table tr th {
+    font-size: 0.95em;
+    padding: 7px 0px;
+    background-color: rgb(226, 226, 226);
+    color: rgb(53, 53, 53);
+}
+.container table tr td {
+    font-size: 0.9em;
+    padding: 8px 8px;
+}
